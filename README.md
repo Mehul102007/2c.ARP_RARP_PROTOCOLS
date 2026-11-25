@@ -75,7 +75,9 @@ s.close()
 <img width="733" height="263" alt="693093690-33b35c22-ce58-4f60-98c3-5b58a06e5bed" src="https://github.com/user-attachments/assets/662acbdf-23b4-4284-a12b-20ce7238dd06" />
 <img width="905" height="237" alt="693093856-dfed31d8-ea95-44fe-b417-6a2d076dbc25" src="https://github.com/user-attachments/assets/d2106576-6be0-499b-b8a1-98aeb332cd33" />
 ## PROGRAM - RARP
+
 ## server
+
 ```
 import socket
 
@@ -111,9 +113,13 @@ print("IP Address:", ip)
 
 c.close()
 s.close()
+
 ```
+
 ## cleint
+
 ```
+
 import socket
 
 s = socket.socket()
@@ -129,7 +135,9 @@ ip = s.recv(1024).decode()
 print("IP Address:", ip)
 
 s.close()
+
 ```
+
 ## OUPUT -RARP
 <img width="862" height="236" alt="693097394-b0e5abec-2624-48ce-80eb-d86eecb51435" src="https://github.com/user-attachments/assets/ab8f6581-ea72-40e7-a068-6163be0d034d" />
 <img width="921" height="295" alt="693097459-978bb400-1257-4431-a7ae-c9fe0c7357c7" src="https://github.com/user-attachments/assets/b23211f8-33f1-4fd8-8ffd-b9cb09feb058" />
