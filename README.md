@@ -76,7 +76,8 @@ s.close()
 <img width="905" height="237" alt="693093856-dfed31d8-ea95-44fe-b417-6a2d076dbc25" src="https://github.com/user-attachments/assets/d2106576-6be0-499b-b8a1-98aeb332cd33" />
 ## PROGRAM - RARP
 ## server
-```import socket
+```
+import socket
 
 s = socket.socket()
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
